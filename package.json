@@ -1,0 +1,13 @@
+{
+  "name": "live-data-collector-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "mock": "node mock-source.mjs",
+    "start": "node collector.mjs",
+    "test": "node --test"
+  }
+}
+
